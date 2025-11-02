@@ -13,4 +13,7 @@ public class Supplier {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "SupplierID", nullable = false)
     private Integer id;
+
+    @Column(name = "CompanyName")
+    private String name;
 }

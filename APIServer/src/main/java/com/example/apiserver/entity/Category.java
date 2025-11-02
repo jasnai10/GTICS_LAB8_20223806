@@ -13,4 +13,7 @@ public class Category {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "CategoryID", nullable = false)
     private Integer id;
+
+    @Column(name = "CategoryName")
+    private String name;
 }

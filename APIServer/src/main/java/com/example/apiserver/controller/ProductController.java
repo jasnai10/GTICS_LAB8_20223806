@@ -37,7 +37,7 @@ public class ProductController {
             Optional<Product> producto =  productRepository.findById(id);
 
             if (producto.isPresent()){
-                response.put("result", "success");
+                response.put("estado", "success");
                 response.put("producto", producto.get());
                 return ResponseEntity.ok(response);
             }
