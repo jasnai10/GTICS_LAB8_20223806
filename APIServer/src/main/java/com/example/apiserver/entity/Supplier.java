@@ -14,6 +14,6 @@ public class Supplier {
     @Column(name = "SupplierID", nullable = false)
     private Integer id;
 
-    @Column(name = "CompanyName")
+    @Column(name = "SupplierName")
     private String name;
 }
